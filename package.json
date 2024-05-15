@@ -1,0 +1,22 @@
+{
+  "name": "taxi-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "taxi": "tsc tests/taxi-browser.ts\nnode tests/taxi-browser.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/browser-chromium": "^1.44.0",
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11"
+  },
+  "dependencies": {
+    "@playwright/browser-webkit": "^1.44.0",
+    "playwright": "^1.44.0",
+    "typescript": "^5.4.5"
+  }
+}
